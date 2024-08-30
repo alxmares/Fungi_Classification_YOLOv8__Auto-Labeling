@@ -54,3 +54,9 @@ The trained YOLOv8s model demonstrated exceptional performance in classifying di
 ### Example Detections
 
 ![Example Detection 1](assets/results.jpg)
+
+* * *
+## 🚀 **Explore More Projects!**
+
+### [📚 Check out all my projects on GitHub Pages](https://alxmares.github.io)
+* * *
