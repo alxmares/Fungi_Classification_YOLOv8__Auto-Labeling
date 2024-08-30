@@ -1,0 +1,4 @@
+remote_theme: pages-themes/minimal@v0.2.0
+title: "Fungi Classification using YOLOv8 with Auto-Labeling" 
+description: "YOLOv8 for classifying fungi images with the help of auto-labeling techniques using Label Studio."
+logo: /assets/logo.jpeg
