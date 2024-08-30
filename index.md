@@ -37,15 +37,20 @@ The trained YOLOv8s model demonstrated exceptional performance in classifying di
 
 ### Model Performance
 
-| Metric          | Value |
-|-----------------|-------|
-| mAP (mean Average Precision) | 0.85  |
-| Precision       | 0.88  |
-| Recall          | 0.87  |
-
 ![Model Results](assets/graphs.png)
+
+| Class           | Images | Instances | Box (P) | Box (R) | mAP50 | mAP50-95 |
+|-----------------|--------|-----------|---------|---------|-------|----------|
+| all             | 1370   | 1795      | 0.961   | 0.943   | 0.980 | 0.806    |
+| Apendiculatus   | 252    | 361       | 0.991   | 0.907   | 0.986 | 0.800    |
+| Cronartium      | 307    | 370       | 0.977   | 0.986   | 0.991 | 0.803    |
+| Melanocepphala  | 231    | 333       | 0.901   | 0.929   | 0.969 | 0.721    |
+| Phragmidium     | 220    | 276       | 0.989   | 0.951   | 0.975 | 0.790    |
+| Pucciniastrum   | 167    | 229       | 0.951   | 0.929   | 0.982 | 0.837    |
+| Hemileia        | 192    | 226       | 0.957   | 0.956   | 0.978 | 0.886    |
+
 ![Model Results](assets/confusionmatrix.png)
 
 ### Example Detections
 
-![Example Detection 1](assets/results.png)
+![Example Detection 1](assets/results.jpg)
